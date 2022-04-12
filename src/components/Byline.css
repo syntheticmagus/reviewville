@@ -1,0 +1,26 @@
+.bylineContainer {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 80vh;
+    z-index: 1;
+}
+
+.bylineText {
+    position: absolute;
+    top: 45%;
+    width: 25%;
+    background-color: #EEEEEEAA;
+    border-radius: 50%;
+    padding: calc(2.5vw + 2.5vh);
+    font-size: calc(12px + 0.7vw);
+}
+
+.bylineImage {
+    position: absolute;
+    top: 10%;
+    width: 40%;
+    height: 80%;
+    object-fit: cover;
+}
