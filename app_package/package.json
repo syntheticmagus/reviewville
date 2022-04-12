@@ -1,0 +1,27 @@
+{
+  "name": "@syntheticmagus/vaporwear-experience",
+  "version": "0.0.9",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p .",
+    "dev": "tsc --watch -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@babylonjs/core": ">5.0.0-beta",
+    "@babylonjs/gui": ">5.0.0-beta",
+    "@babylonjs/loaders": ">5.0.0-beta",
+    "@syntheticmagus/showroom-camera": "^1.0.4"
+  }
+}
